@@ -1,0 +1,94 @@
+body {
+	background: #222222;
+	color: #fff;
+	font-family: "¿¬Ìå";
+	margin-top: 15px;
+}
+
+.box {
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.box h1 {
+	text-shadow: 2px 5px 5px #E60808;
+}
+
+.btn {
+	width: 200px;
+	height: 36px;
+	cursor: pointer;
+	display: block;
+	border: 1px solid #822B2B;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 30px;
+	text-decoration: none;
+	margin: 40 auto;
+	color: #fff;
+}
+
+.sub {
+	width: 100px;
+	height: 25px;
+	cursor: pointer;
+	display: block;
+	border: 1px solid #822B2B;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 10px;
+	text-decoration: none;
+	margin: 15px auto;
+	color: #C31414;
+}
+
+.about {
+	width: 200px;
+	height: 36px;
+	display: block;
+	border: 1px solid #822B2B;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 20px;
+	text-decoration: none;
+	margin: 15px auto;
+	color: #C31414;
+}
+
+#div_see {
+	padding-top: 100px;
+}
+
+.a_sub {
+	width: 200px;
+	height: 25px;
+	cursor: pointer;
+	display: block;
+	border: 1px solid #822B2B;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 25px;
+	text-decoration: none;
+	margin: 15px auto;
+	color: #C31414;
+}
+
+.btn:hover {
+	background-color: #fff;
+	font-size: 20px;
+	color: #CE2F2F;
+}
+
+.sub:hover {
+	background-color: #fff;
+	font-size: 15px;
+	color: #CE2F2F;
+}
+
+.a_sub:hover {
+	background-color: #fff;
+	font-size: 15px;
+	color: #CE2F2F;
+}

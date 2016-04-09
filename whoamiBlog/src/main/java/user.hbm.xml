@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-12-27 16:13:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.whoami.po.user" table="USER">
+        <id name="u_id" type="int">
+            <column name="U_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="u_name" type="java.lang.String">
+            <column name="U_NAME" />
+        </property>
+        <property name="u_nickname" type="java.lang.String">
+            <column name="U_NICKNAME" />
+        </property>
+        <property name="u_truename" type="java.lang.String">
+            <column name="U_TRUENAME" />
+        </property>
+        <property name="u_passwd" type="java.lang.String">
+            <column name="U_PASSWD" />
+        </property>
+        <property name="sex" type="java.lang.String">
+            <column name="SEX" />
+        </property>
+        <property name="u_birthday" type="java.lang.String">
+            <column name="U_BIRTHDAY" />
+        </property>
+        <property name="u_city" type="java.lang.String">
+            <column name="U_CITY" />
+        </property>
+        <property name="u_email" type="java.lang.String">
+            <column name="U_EMAIL" />
+        </property>
+        <property name="u_tell" type="java.lang.String">
+            <column name="U_TELL" />
+        </property>
+        <property name="u_regtime" type="java.util.Date">
+            <column name="U_REGTIME" />
+        </property>
+    </class>
+</hibernate-mapping>

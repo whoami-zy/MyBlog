@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+body {
+	text-align: center;
+	background-color: #222222;
+	margin: 0;
+	padding: 0;
+}
+.div1{
+	padding-top: 40px;
+	 padding-left: 50px;width: 300px;
+}
+.field{
+	border-radius:30px;
+	width: 500px;
+	border:0px;
+	height: 200px;
+	text-indent: 2em;
+	padding-top: 15px;
+	resize:none;
+	margin-left:200px;
+	color: white;
+	background-color: #3E3032;
+}
+.text1{
+	margin-left:200px;
+	text-indent: 2em;
+	background-color: #3E3032;
+	height:30px;
+	color: white;
+	border-radius:10px;
+}
+#btn{
+	cursor: pointer;
+	 
+	background-color: #3E3032;
+	width:60px;
+	height:30px;
+	color: white;
+	border-radius:10px;
+	margin-left: 130px;
+}
+#div2{
+	 
+	padding-top: 15px;
+	
+}
+#btn:hover{
+	font-size: 15px;
+}
+
+
+.div1 span {
+	color: #999;
+	font-size: 16px;
+	padding-left:100px;
+	font-style: "微软简仿宋" ；
+}

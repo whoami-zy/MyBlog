@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-12-27 16:13:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.whoami.po.photos" table="PHOTOS">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="u_id" type="int">
+            <column name="U_ID" />
+        </property>
+        <property name="p_name" type="java.lang.String">
+            <column name="P_NAME" />
+        </property>
+        <property name="p_about" type="java.lang.String">
+            <column name="P_ABOUT" />
+        </property>
+        <property name="p_path" type="java.lang.String">
+            <column name="P_PATH" />
+        </property>
+        <property name="p_time" type="java.util.Date">
+            <column name="P_TIME" />
+        </property>
+    </class>
+</hibernate-mapping>

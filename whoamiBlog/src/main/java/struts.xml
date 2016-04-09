@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<constant name="struts.custom.i18n.resources" value="message" />
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<!-- 上传过程中临时文件存放目录 -->
+	<constant name="struts.multipart.saveDir" value=""></constant>
+	<package name="default" namespace="/" extends="struts-default">
+		<default-action-ref name="error"></default-action-ref>
+		<action name="error">
+			<result>/error.jsp</result>
+		</action>
+		<action name="*_*" method="{2}" class="com.whoami.struts.{1}">
+			<result name="userLoginSuccess">/welcome.jsp</result>
+			<result name="userLoginFalse">/login.jsp</result>
+			<result name="addMessageSuccess">/index.jsp</result>
+			<result name="addSuccess">/leaveSuccess.jsp</result>
+			<result name="addPhotoSuccess">/successPhoto.jsp</result>
+			<result name="viewByAll">/myBlog.jsp</result>
+			<result name="viewById">/viewById.jsp</result>
+			<result name="message">/message.jsp</result>
+			<result name="index">/index.jsp</result>
+			<result name="login">/login.jsp</result>
+			<result name="leaveLanguage">/leaveLanguage.jsp</result>
+			
+		</action>
+	</package>
+</struts>

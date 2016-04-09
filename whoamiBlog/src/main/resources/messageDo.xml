@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    	
+    	<bean id="messageDoHelp" class="com.whoami.SpringHelper.messageSpringDoHelper">
+    		<property name="mess" ref="mess"></property>
+    		<property name="messDo" ref="messDo"></property>
+    	</bean>
+    	<bean id="mess" class="com.whoami.po.message"></bean>
+    	<bean id="messDo" class="com.whoami.daodo.messageDaoDo"></bean>
+    </beans>

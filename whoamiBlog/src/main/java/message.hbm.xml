@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-12-27 16:13:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.whoami.po.message" table="MESSAGE">
+        <id name="m_id" type="int">
+            <column name="M_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="u_id" type="int">
+            <column name="U_ID" />
+        </property>
+          <property name="see" type="int">
+            <column name="SEE" />
+        </property>
+        <property name="title" type="java.lang.String">
+            <column name="TITLE" />
+        </property>
+        <property name="context" type="java.lang.String">
+            <column name="CONTEXT" />
+        </property>
+        <property name="data_time" type="java.util.Date">
+            <column name="DATA_TIME" />
+        </property>
+    </class>
+</hibernate-mapping>

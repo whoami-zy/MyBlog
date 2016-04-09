@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    	
+    	<bean id="userDoHelp" class="com.whoami.SpringHelper.userSpringDoHelp">
+    		<property name="u" ref="u"></property>
+    		<property name="userDo" ref="userDo"></property>
+    	</bean>
+    	<bean id="u" class="com.whoami.po.user"></bean>
+    	<bean id="userDo" class="com.whoami.daodo.UserDaoDO"></bean>
+    </beans>
